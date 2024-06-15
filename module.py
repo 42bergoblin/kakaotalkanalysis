@@ -351,7 +351,7 @@ def create_anniversary(kakao_chat):
     base_url="https://api.upstage.ai/v1/solar"
     )
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="solar-1-mini-chat",
         messages=[
             {
                 "role": "system",
